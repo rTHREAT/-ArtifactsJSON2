@@ -1,5 +1,5 @@
 {
-        "name": "02ecd.Backdoor",
+        "name": "3247d.Adware",
         "versions": {
                 "attack": "9",
                 "navigator": "4.3",
@@ -30,6 +30,22 @@
         },
         "hideDisabled": false,
         "techniques": [
+                {
+                        "techniqueID": "T1027",
+                        "color": "#e60d0d",
+                        "comment": "",
+                        "enabled": true,
+                        "metadata": [],
+                        "showSubtechniques": true
+                },
+                {
+                        "techniqueID": "T1027.002",
+                        "color": "#e60d0d",
+                        "comment": "",
+                        "enabled": true,
+                        "metadata": [],
+                        "showSubtechniques": true
+                },
                 {
                         "techniqueID": "T1056",
                         "color": "#e60d0d",
